@@ -1,7 +1,5 @@
-// CHANGE DATE DOWN BELOW TO UPDATE THE TIMER
 var countDownDate = new Date("Nov 20, 2017 00:00:00").getTime();
 
-// TIMER.JS BY GEORGE BATIASHVILI
 var x = setInterval(function() {
 
     var current = new Date().getTime();
