@@ -150,8 +150,16 @@
 }
 
 /* WIDTH */
+.w10 {
+    width: 10%;
+}
+
 .w20 {
     width: 20%;
+}
+
+.w25 {
+    width: 25%;
 }
 
 .w40 {
@@ -171,8 +179,16 @@
 }
 
 @media (max-width: 768px) {
+    .w10-m {
+        width: 10%;
+    }
+
     .w20-m {
         width: 20%;
+    }
+
+    .w25-m {
+        width: 25%;
     }
 
     .w40-m {
@@ -193,8 +209,16 @@
 }
 
 @media (min-width: 768px) {
+    .w10-d {
+        width: 10%;
+    }
+
     .w20-d {
         width: 20%;
+    }
+
+    .w25-d {
+        width: 25%;
     }
 
     .w40-d {
