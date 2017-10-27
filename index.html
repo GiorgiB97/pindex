@@ -47,8 +47,7 @@
     <!--{{{ JS SCRIPTS }}}-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- override all js files with index.js-->
-    <script src="js/index.js"></script>
+    <!-- ... CONTINUED IN THE END OF BODY ... -->
     <!--{{{ END JS SCRIPTS }}}-->
 
 
@@ -91,8 +90,9 @@
 
 
 <!--{{{ INTRO SECTION }}}-->
-<div class="intro section pt40-d pt0-m pb60-d pb40-m text-white" style="background: url('img/Hero1_Image.png') no-repeat center center fixed;
+<div id="particles-js" class="particles-js-canvas-el intro section pt40-d pt0-m pb60-d pb40-m text-white" style="background: url('img/Hero1_Image.png') no-repeat center center fixed;
              background-size: cover">
+    <canvas class="particles-js-canvas-el"></canvas>
     <a href="https://www.pindify.com/market" target="_blank"><img class="hidden-xs parallax parallax-to-right laptop-d"
                                                                   src="img/Hero1_laptop.png" alt="laptop.png"></a>
     <div class="container">
@@ -1287,14 +1287,11 @@
 
 
 <!--{{{ JS ON DOCUMENT LOAD }}}-->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var scriptTimer = document.createElement('script');
-        scriptTimer.src = 'plugins/timer/timer.js';
-        scriptTimer.async = true;
-        document.head.appendChild(scriptTimer);
-    });
-</script>
+<script src="plugins/timer/timer.js"></script>
+<!-- particles.js -->
+<script src="plugins/particles/particles.js"></script>
+<!-- override all js files with index.js-->
+<script src="js/index.js"></script>
 <!--{{{ END JS ON DOCUMENT LOAD }}}-->
 </body>
 </html>
