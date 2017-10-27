@@ -21,7 +21,7 @@ body {
     background-color: #f5f5f5;
 }
 
-body b{
+body b {
     font-weight: bold !important;
 }
 
@@ -33,7 +33,7 @@ a:hover {
     color: #719fd8;
 }
 
-.section{
+.section {
     position: relative;
 }
 
