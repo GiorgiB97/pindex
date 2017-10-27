@@ -7,6 +7,10 @@
     z-index: 9999;
 }
 
+.header .navbar-collapse {
+    background-color: #343434;
+}
+
 .header a.navbar-brand {
     background-color: #343534;
     height:auto;
@@ -25,6 +29,7 @@
 }
 
 .header ul li a{
+    text-align: center;
     color:white !important;
     font-weight: bold !important;
 }
