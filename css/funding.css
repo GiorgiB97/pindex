@@ -1,0 +1,32 @@
+.conditions-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+@media screen and (max-width: 530px) {
+    .conditions-list {
+        margin-top: 35px
+    }
+}
+
+.conditions-item {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+@media screen and (max-width: 430px) {
+    .conditions-item {
+        width: auto;
+    }
+}

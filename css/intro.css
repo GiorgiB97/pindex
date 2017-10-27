@@ -1,0 +1,34 @@
+.intro .timer-wrapper {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding: 5% 0;
+    margin: 1em auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.intro .timer-wrapper .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.intro .timer-wrapper .content h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.intro .timer-wrapper .content:before {
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    width: 0;
+    height: 100%;
+}
+
+.intro .timer-wrapper .content span {
+    vertical-align: middle;
+    display: inline-block;
+}

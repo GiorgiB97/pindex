@@ -1,0 +1,43 @@
+.header {
+    background-color: #343534;
+    height: 50px;
+    border:0;
+    border-radius: 0;
+    margin-bottom: 0;
+    z-index: 9999;
+}
+
+.header a.navbar-brand {
+    background-color: #343534;
+    height:auto;
+    padding:10px;
+    padding-bottom: 6px;
+    border-radius:50%;
+    position: absolute;
+}
+
+.header a.navbar-brand:hover,
+.header a.navbar-brand:focus,
+.header a.navbar-brand:active {
+    background-color: #343534;
+    height:auto;
+    text-decoration: none;
+}
+
+.header ul li a{
+    color:white !important;
+    font-weight: bold !important;
+}
+.header ul li a:hover{
+    color: #719fd8 !important;
+}
+
+@media (max-width: 768px){
+    .header a.navbar-brand{
+        padding:0 10px;
+        height:50px;
+    }
+    .header a.navbar-brand img{
+        height:50px;
+    }
+}

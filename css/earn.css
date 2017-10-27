@@ -1,0 +1,23 @@
+.earn .earn-item .head .earn-icon {
+    height: 30px;
+    margin-top: -8px;
+    margin-left: -30px;
+    margin-right: 6px;
+}
+
+.earn .earn-item .body {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px){
+    .earn .earn-item .head .earn-icon {
+        height: 40px;
+        margin-top: -8px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .earn .earn-item .body {
+        margin-left: 0;
+    }
+}
