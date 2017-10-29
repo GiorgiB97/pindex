@@ -825,20 +825,27 @@
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-.c100:hover {
-  cursor: default;
-}
-.c100:hover > span {
-  width: 3.33em;
-  line-height: 3.33em;
-  font-size: 0.3em;
-  color: #307bbb;
-}
-.c100:hover:after {
-  top: 0.04em;
-  left: 0.04em;
-  width: 1.92em;
-  height: 1.92em;
+@media (min-width: 768px) {
+  .c100:hover {
+    cursor: default;
+  }
+
+  .c100:hover > span {
+    width: 3.33em;
+    line-height: 3.33em;
+    font-size: 0.3em;
+    color: #307bbb;
+  }
+
+  .c100:hover:after {
+    top: 0.04em;
+    left: 0.04em;
+    width: 1.92em;
+    height: 1.92em;
+  }
+  .c100.dark:hover > span {
+    color: #ffffff;
+  }
 }
 .c100.dark {
   background-color: transparent;
@@ -852,7 +859,4 @@
 }
 .c100.dark:after {
   background-color: transparent;
-}
-.c100.dark:hover > span {
-  color: #ffffff;
 }
