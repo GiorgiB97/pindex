@@ -116,6 +116,13 @@ a:hover {
     height: 15vw;
 }
 
+body{
+    top:0px !important;
+}
+.goog-te-banner-frame.skiptranslate{
+    display:none !important;
+}
+
 @media (max-width: 1366px) {
     .video-responsive {
         width: 50%;

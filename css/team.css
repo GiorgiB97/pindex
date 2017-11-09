@@ -10,6 +10,8 @@
 }
 .team .team-item .img-responsive, .advisors .advisor-item .img-responsive{
     max-width:200px;
+    filter: grayscale(100%);
+    border-radius: 50%;
 }
 .team .team-item .social-icon, .advisors .advisor-item .social-icon{
     position: absolute;
